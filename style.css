@@ -470,11 +470,13 @@ a img.hatena-image-right {
 
 .entry-footer-section {
   text-align: right;
+  float: right;
 }
 
 .hatena-star-container {
-  position: relative;
-  bottom: 2.5em;
+  width: 25em;
+  float: left;
+  margin-bottom: 1em;
 }
 
 .star-navigation-tooltip {
@@ -482,15 +484,14 @@ a img.hatena-image-right {
   bottom: 2.4em;
 }
 
-#google_afc_user, .customized-footer {
-  position: relative;
-  bottom: 2.4em;
+.google_afc_blocklink,
+#google_afc_user,
+.customized-footer {
+   clear: both;
 }
 
 .comment-box {
   border-top: 1px solid #b6b6b6;
-  position: relative;
-  bottom: 2em;
 }
 
 .comment {
