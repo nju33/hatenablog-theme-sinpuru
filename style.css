@@ -580,6 +580,10 @@ a img.hatena-image-right {
   bottom: 2.3em;
 }
 
+.profile-description {
+  clear: both;
+}
+
 .search-form input[type="text"] {
   outline: none;
   -webkit-border-radius: 3px 3px;
